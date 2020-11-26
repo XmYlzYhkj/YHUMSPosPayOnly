@@ -26,5 +26,10 @@ Pod::Spec.new do |s|
 
   s.vendored_libraries = "UMSPosPayOnly/*.a"
   
+  s.dependency 'WechatOpenSDK'
+
+  s.dependency 'AlipaySDK-iOS'
+
+  s.dependency 'YHUPPayPluginSDK'
 
 end
