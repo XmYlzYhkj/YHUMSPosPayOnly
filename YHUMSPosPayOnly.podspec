@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
 
   s.author       = { "XmYhkj" => "yhkj_xm@163.com" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/XmYlzYhkj/YHUMSPosPayOnly.git", :tag => s.version.to_s }
 
@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
   s.frameworks       = 'SystemConfiguration', 'CoreMotion','CFNetwork', 'CoreTelephony', 'QuartzCore', 'CoreText', 'CoreGraphics', 'UIKit', 'Foundation'
 
   s.libraries        = 'z', 'c++', 'sqlite3'
