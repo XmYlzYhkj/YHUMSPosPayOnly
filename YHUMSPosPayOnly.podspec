@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/XmYlzYhkj/YHUMSPosPayOnly.git", :tag => s.version.to_s }
 
-  s.source_files  = "Classes", "Classes/*.h"
+  s.source_files  = "UMSPosPayOnly", "UMSPosPayOnly/*.h"
 
   s.requires_arc = true
 
