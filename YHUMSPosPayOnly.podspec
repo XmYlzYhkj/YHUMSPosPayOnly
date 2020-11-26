@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   
   s.dependency 'WechatOpenSDK'
 
-  s.dependency 'AlipaySDK-iOS'
+#  s.dependency 'AlipaySDK-iOS'
 
   s.dependency 'YHUPPayPluginSDK'
 
