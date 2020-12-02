@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YHUMSPosPayOnly"
-  s.version      = "0.3.1.1"
+  s.version      = "0.3.1.2"
   s.summary      = "银联商务全民付移动支付"
 
   s.description  = "银联商务全民付移动支付-APP综合支付-商户客户端"
@@ -36,7 +36,5 @@ Pod::Spec.new do |s|
   s.dependency 'WechatOpenSDK'
 
   s.dependency 'AlipaySDK-iOS'
-
-  s.dependency 'YHUPPayPluginSDK'
 
 end
